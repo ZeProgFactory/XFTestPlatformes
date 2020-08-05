@@ -2,13 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XFTestPlatformes"
+             xmlns:zpf="clr-namespace:ZPF.XF.Compos;assembly=Compos"
              x:Class="XFTestPlatformes.MainPage">
 
-    <StackLayout>
+   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+      <Label Text="7ABC123" FontFamily="Montserrat.ttf" FontSize="36" />
+      <Button HeightRequest="30" WidthRequest="50" Text="-" FontSize="26" CornerRadius="4" BackgroundColor="LightGray" TextColor="White" Padding="0"  ContentLayout="Left,0" />
+      <zpf:Tile HeightRequest="30" WidthRequest="50" Text="-" FontSize="26" CornerRadius="4" BackgroundColor="LightGray" TextColor="White" />
+   </StackLayout>
 
 </ContentPage>
