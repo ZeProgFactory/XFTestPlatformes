@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XFTestPlatformes"
-             xmlns:zpf="clr-namespace:ZPF.XF.Compos;assembly=Compos"
+             xmlns:zpf="clr-namespace:ZPF.XF.Compos;assembly=ZPF_XF_Compos"
              x:Class="XFTestPlatformes.MainPage">
 
    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
